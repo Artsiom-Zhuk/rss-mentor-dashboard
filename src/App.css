@@ -1,0 +1,56 @@
+.redColor{
+    background-color: red;
+}
+
+.greenColor {
+    background-color: green;
+}
+
+.grayColor {
+    background-color: gray;
+}
+
+.yellowColor {
+    background-color: yellow;
+}
+
+.pinkColor {
+    background-color: pink;
+}
+
+.app__td-student-github {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.app_tr-task-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__div-select-mentor{
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.app__select {
+    width:400px;
+}
+
+.app__table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+
+
