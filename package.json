@@ -1,8 +1,10 @@
 {
   "name": "rss-mentor-dashboard",
+  "homepage": "https://artsiom-zhuk.github.io/rss-mentor-dashboard/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-xlsx": "^0.14.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
@@ -10,6 +12,8 @@
     "react-select": "^2.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
